@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0.0
+Name=AutoCar
+Name[Sensirion]=Morgan
+Exec=sudo python /home/pi/Code/Project_AutoCar/Ferrari.py
+Icon=/home/pi/Code/Project_AutoCar/sensirionlogo.png
+Type=Application
