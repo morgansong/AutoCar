@@ -1,1 +1,1 @@
-here is the demo of websocket and Flask server
+here is the websocket demo with Flask server
