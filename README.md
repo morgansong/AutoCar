@@ -9,9 +9,12 @@ project decription:
 - key notices: 
     - very short delay of sending the signal, in order to send the command out correctly without any broken between signal transfering
     - flask server to recognize the signal and control the car to change the action only when the received signal is changed
+- first version is only to driver the car with video steam
+- next version will integriate the video steam 
+
 
 difination actions:
-- default: 000000
+- default(stop): 000000
 - go: x1xxxx
 - accerlate: xx1xxx
 - turn left: xxx1xx
