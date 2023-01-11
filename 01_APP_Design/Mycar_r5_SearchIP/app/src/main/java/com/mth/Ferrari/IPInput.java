@@ -58,8 +58,7 @@ public class IPInput extends Activity {
 
     private String TAG = "MTH_Morgan";
 
-
-    //    private String myUrl="http://10.11.8.16:5000/myCar";
+//    private String myUrl="http://10.11.8.16:5000/myCar";
 //    private String myUrl="http://192.168.0.100:5000/myCar";
     private String myUrl;
 
@@ -227,7 +226,6 @@ public class IPInput extends Activity {
                     }
 
                     status_marker = 0;
-
 
                     Thread.sleep(100);
 
