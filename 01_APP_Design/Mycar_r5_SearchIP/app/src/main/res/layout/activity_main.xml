@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/purple_700">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IP of Ferrari"
+        android:textSize="40sp"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/myIP"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorStatus"
+            android:gravity="center"
+            android:hint="192.168.0.x"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/SearchIP"
+                android:layout_height="wrap_content"
+                android:text="SearchIP"
+                android:textAlignment="center"
+                android:onClick="SearchIP"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/Changepage"
+                android:layout_height="wrap_content"
+                android:text="@string/GO"
+                android:textAlignment="center"
+                android:onClick="gotoMain"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IP List can be pinged:"
+            android:textSize="30sp"
+            android:textColor="@color/colorImage">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorImage"
+            android:textSize="30sp"
+            android:id="@+id/myIPList">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
