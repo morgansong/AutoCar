@@ -56,6 +56,7 @@ public class IPInput extends Activity {
     //          . sending all flags:false if disconnected
     //      . set all timeouts to 100ms
     //      . dynamic acc speed
+    //      . integriate the camera
 
     private int status_marker = 0 ;
 
