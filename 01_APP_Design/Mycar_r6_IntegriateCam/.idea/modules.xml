@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mycar_r6_IntegriateCam.iml" filepath="$PROJECT_DIR$/.idea/modules/Mycar_r6_IntegriateCam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KqwRockerLibrary/Mycar_r6_IntegriateCam.KqwRockerLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/KqwRockerLibrary/Mycar_r6_IntegriateCam.KqwRockerLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Mycar_r6_IntegriateCam.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Mycar_r6_IntegriateCam.app.iml" />
+    </modules>
+  </component>
+</project>
