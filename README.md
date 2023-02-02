@@ -1,6 +1,6 @@
 # Project AutoCar 
 
-project decription: 
+# project decription: 
 - Flask server in Raspiberry PI
 - GPIO pins to generator PWM signal to control speed of 4 motors (4wheels) through chip TB6612FNG
 - battery driver for 4motors
@@ -13,7 +13,7 @@ project decription:
 - next version will integriate the video steam 
 
 
-difination actions:
+# difination actions:
 - default(stop): 000000
 - go: x1xxxx
 - accerlate: xx1xxx
@@ -21,7 +21,7 @@ difination actions:
 - backward: xxxx1x
 - turn right: xxxxx1
 
-2 steps for the project:
+# 2 steps for the project:
 - First step:
     - raspeberry is controller
     - python code
